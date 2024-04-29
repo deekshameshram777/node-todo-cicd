@@ -3,5 +3,6 @@ WORKDIR app
 COPY . .
 RUN npm install
 RUN npm run test
+RUN pip3 install --upgrade docker
 EXPOSE 8000
 CMD ["node","app.js"]

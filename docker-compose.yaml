@@ -4,4 +4,4 @@ services:
   web:
     image: "deeksha777/node-app-batch-6:latest"
     ports:
-      - "8001:8001"
+      - "8000:8000"
